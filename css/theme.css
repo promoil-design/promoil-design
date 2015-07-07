@@ -1,0 +1,41 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+
+.dialog_box {
+    height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+    background-color: #dff0d8;
+}
+
+
+.panel-heading {
+  cursor: pointer;
+  color: #428bca;
+}
+
+.panel-heading span{
+    color: #428bca;
+}
+
+
+.panel-heading:hover span {
+  color: #2a6496;
+}

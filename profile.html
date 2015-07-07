@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Профиль</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/offcanvas.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Промойл</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-sm-3 col-md-2">
+            <ul class="nav nav-sidebar">
+                <li class="active"><a href="profile.html">Профиль</a></li>
+                <li><a href="news.html">Лента новостей</a></li>
+                <li><a href="dashboard.html">Рабочие элементы</a></li>
+                <li>
+                    <a href="dialog.html">
+                        <span class="badge pull-right">42</span>
+                        Сообщения
+                    </a>
+                </li>
+                <li><a href="group_planning.html">Группы</a></li>
+                <li><a href="#"><span class="badge pull-right badge-important">16</span>Календарь</a></li>
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Продукция</a>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <ul class="nav">
+                                <li><a href="#">Станки</a></li>
+                                <li><a href="#">Комплектующие</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Справочники</a>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <ul class="nav">
+                                <li><a href="#">Производители</a></li>
+                                <li><a href="#">Дистрибьюторы</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<h4>Сегодня</h4>-->
+                <!--<li><a href="#">Событие 1</a></li>-->
+                <!--<li><a href="#">Событие 2</a></li>-->
+                <!--<li><a href="#">Событие 3</a></li>-->
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-9">
+            <div class="page-header">
+                <h1>Профиль</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="img/tmp_avatar.png" alt="..." class="img-rounded">
+                </div>
+
+                <div class="col-lg-2">
+                   <h4>ФИО:</h4>
+                   <h4>Должность:</h4>
+                   <h4>Статус:</h4>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4>Иванов Иван Иванович</h4>
+                    <h4>Главный специалист</h4>
+                    <h4>Занят в течении 6 часов</h4>
+                </div>
+            </div>
+
+            <div class="page-header">
+                <h1>Навыки</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item"><b>10</b> - Бизнес анализ</a>
+                        <a href="#" class="list-group-item"><b>8</b> - Управление проектами</a>
+                        <a href="#" class="list-group-item"><b>7</b> - Анализ кредитных рисков</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-header">
+                <h1>Награды</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">Награда за своевременно завершенный проект</a>
+                        <a href="#" class="list-group-item">Награда за ...</a>
+                        <a href="#" class="list-group-item">Награда за ...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+
+    <footer>
+        <p>&copy; Наша компания 2015</p>
+    </footer>
+
+</div><!--/.container-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="offcanvas.js"></script>-->
+</body>
+</html>
