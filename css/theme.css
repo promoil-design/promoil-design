@@ -39,3 +39,7 @@ body {
 .panel-heading:hover span {
   color: #2a6496;
 }
+
+.right{
+  float: right;
+}
